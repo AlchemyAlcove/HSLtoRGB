@@ -21,5 +21,5 @@ test("valid blue", () => {
 });
 
 test("valid midnight blue", () => {
-  expect(Convert([210, 29, 24])).toEqual([43, 61, 79]);
+  expect(Convert([210, 29, 24])).toEqual([43.452, 61.19999999999998, 78.948]);
 });
