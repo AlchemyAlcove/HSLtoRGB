@@ -1,12 +1,12 @@
 {
-  "name": "@alchemyalcove/rgb-to-hsl",
+  "name": "@alchemyalcove/hsl-to-rgb",
   "version": "1.0.0",
-  "description": "Convert rgb to hsl",
+  "description": "Convert hsl to rgb",
   "author": "Mike Hoffert",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlchemyAlcove/RGBtoHSL"
+    "url": "https://github.com/AlchemyAlcove/HSLtoRGB"
   },
   "scripts": {
     "babel": "babel src --out-dir dist",
