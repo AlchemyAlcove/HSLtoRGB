@@ -16,7 +16,7 @@ exports.default = function (hsl) {
 
   if (s === 0) {
     val = l * 255;
-    return [Math.round(val), Math.round(val), Math.round(val)];
+    return [val, val, val];
   }
 
   if (l < 0.5) {
@@ -47,7 +47,7 @@ exports.default = function (hsl) {
       val = t1;
     }
 
-    rgb[i] = Math.round(val * 255);
+    rgb[i] = val * 255;
   }
 
   return rgb;
