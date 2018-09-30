@@ -1,3 +1,3 @@
-var formLinker = require("./dist");
+var HSLtoRGB = require("./dist");
 
-module.exports = formLinker;
+module.exports = HSLtoRGB;
