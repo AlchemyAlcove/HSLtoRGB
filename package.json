@@ -4,6 +4,12 @@
   "description": "Convert hsl to rgb",
   "author": "Mike Hoffert",
   "main": "index.js",
+  "keywords": [
+    "color",
+    "rgb",
+    "hsl",
+    "convert"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/AlchemyAlcove/HSLtoRGB"
@@ -11,9 +17,10 @@
   "scripts": {
     "babel": "babel src --out-dir dist",
     "lint": "./node_modules/.bin/eslint src",
-    "production": "npm run webpack && npm run babel",
+    "production": "npm run webpack && npm run babel && npm run uglify",
     "test": "jest",
-    "webpack": "./node_modules/.bin/webpack --env.production --progress && rm dist/index.html"
+    "uglify": "./node_modules/.bin/uglifyjs dist/index.js --compress --mangle -o dist/index.min.js",
+    "webpack": "./node_modules/.bin/webpack --env.production --progress"
   },
   "dependencies": {},
   "devDependencies": {

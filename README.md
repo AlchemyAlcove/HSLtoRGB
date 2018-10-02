@@ -12,7 +12,7 @@ It is also built with web support in mind.
 
 Converts HSL arrays into RGB arrays.
 
-387 bytes download size minified.
+341 bytes download size minified.
 
 ## Install
 
