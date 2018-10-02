@@ -24,10 +24,10 @@ export default function(hsl) {
   rgb = [0, 0, 0];
   for(var i = 0; i < 3; i++) {
     t3 = h + 1 / 3 * -(i - 1);
-    if (t3 < 0) {
+    if(t3 < 0) {
       t3++;
     }
-    if (t3 > 1) {
+    if(t3 > 1) {
       t3--;
     }
 
