@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/rgbtohsl
+    working_directory: ~/hsltorgb
     docker:
       - image: circleci/node:7.9
     steps:
